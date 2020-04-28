@@ -5,4 +5,3 @@ void fun1(int data)
 {
     printf("test_fun1:%d\n", data);
 }
-
