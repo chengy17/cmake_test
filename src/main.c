@@ -5,7 +5,7 @@
 int main(void)
 {
 	printf("hello_world!\n");
-	fun1(10);
-	fun2(99);
+	fun1(11);
+	fun2(100);
 	return 0;
 }
