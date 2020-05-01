@@ -4,4 +4,4 @@ add_library (libFun_static STATIC ${LIB_SRC})
 
 set_target_properties (libFun_static PROPERTIES OUTPUT_NAME "fun")
 
-set (LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
+set (LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
