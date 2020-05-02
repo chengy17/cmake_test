@@ -1,6 +1,12 @@
+if (NOT PROJ)
+    message(FATAL_ERROR "PROJ not set, e.g: -DPROJ=testfun1")
+else ()
+    message("PROJ = ${PROJ}")
+endif ()
+
 cmake_minimum_required (VERSION 3.0)
 
-project (demo)
+project (${PROJ})
 
 add_subdirectory (lib)
 
